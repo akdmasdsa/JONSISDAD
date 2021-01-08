@@ -1,0 +1,243 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "NIGGUS",
+				"abbreviation": "NIG",
+				"full": "NIGGUS",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1610107362,
+		"dateLastModified": 1610107362
+	},
+	"monster": [
+		{
+			"name": "Abyssal Manifestation.",
+			"source": "NIGGUS",
+			"page": 236,
+			"size": "M",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"condition": "Abyssal defense.",
+					"braces": true
+				}
+			],
+			"hp": {
+				"formula": "27d8 + 108",
+				"average": 229
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40
+			},
+			"str": 8,
+			"dex": 22,
+			"con": 19,
+			"int": 18,
+			"wis": 10,
+			"cha": 18,
+			"save": {
+				"dex": "+13",
+				"con": "+11",
+				"int": "+11",
+				"wis": "+7"
+			},
+			"skill": {
+				"stealth": "+18",
+				"acrobatics": "+18",
+				"arcana": "+10",
+				"insight": "+6",
+				"investigation": "+15",
+				"persuasion": "+16",
+				"sleight of hand": "+17",
+				"perception": "+12"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 10 ft."
+			],
+			"passive": 22,
+			"resist": [
+				"poison",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical weapons"
+				}
+			],
+			"immune": [],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"languages": [
+				"Abyssal"
+			],
+			"cr": "20",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Abyssal Manifestation. makes two attacks with Astral silver fragment attacks and cast one spell."
+					]
+				},
+				{
+					"name": "Abyssal fury {@recharge 4}",
+					"entries": [
+						"The Abyssal Manifestation make six Astral silver fragment attack . Either before or after these attacks, it can move up to its speed as a bonus action without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Bracelet of astral fragments",
+					"entries": [
+						"Using an action, Abyssal Manifestation can cast four fragments of astral silver and toss them immediately after casting them"
+					]
+				},
+				{
+					"name": "Astral silver fragment",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d4 + 6}) piercing damage, plus 13 ({@damage 3d8}) thunder damage."
+					]
+				},
+				{
+					"name": "Abyssal Jump.",
+					"entries": [
+						"using the bonus action the Abyssal Manifestation can teleport to any direction within 30 feet, he needs to see the location before jumping."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/star-spawn-mangler.mp3?v=1.119.0"
+			},
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AB"
+			],
+			"damageTags": [
+				"P",
+				"T"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/707623192071635035/797072687687401482/1213.png",
+			"fluff": {
+				"entries": [
+					". . ."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/527735874826272778/797069177529303040/unknown.png"
+						}
+					}
+				]
+			},
+			"shortName": true,
+			"trait": [
+				{
+					"name": "Ambusher",
+					"entries": [
+						"The abyssal manifestation. has advantage on attack rolls against any creature it has surprised."
+					]
+				},
+				{
+					"name": "Evasion",
+					"entries": [
+						"If the abyssal manifestation. is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the abyssal manifestation. instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+					]
+				},
+				{
+					"name": "Dark Run",
+					"entries": [
+						"The abyssal manifestation. can take the {@action Disengage} or {@action Dash} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Elusive",
+					"entries": [
+						"Abyssal Manifestation are so evasive that attackers rarely gain the upper hand against him. No attack roll has advantage against Abyssal Manifestation while him aren't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, the abyssal manifestation. deals an extra 30 ({@damage 10d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the abyssal manifestation. that isn't {@condition incapacitated} and the abyssal manifestation. doesn't have disadvantage on the attack roll."
+					]
+				}
+			],
+			"traitTags": [
+				"Ambusher",
+				"Sneak Attack"
+			],
+			"reaction": [
+				{
+					"name": "One day, an arcane trickster",
+					"entries": [
+						"If Abyssal Manifestation are the target of a spell, he can use the reaction to usurp the caster's spell. Forcing to make a check of your spellcasting ability ... if fail, the spell fails and is misused and you cannot cast it in the next 8 hours."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Abyssal Manifestation's spellcasting ability is Inteligence (spell save {@dc 18}). He can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell booming blade|TCE}",
+						"{@spell disguise self}",
+						"{@spell invisibility}",
+						"{@spell knock}",
+						"{@spell mage hand}",
+						"{@spell magic missile}",
+						"{@spell minor illusion}",
+						"{@spell mislead}",
+						"{@spell pass without trace}"
+					],
+					"daily": {
+						"1": [
+							"{@spell conjure volley}"
+						],
+						"3": [
+							"{@spell arcane eye}",
+							"{@spell counterspell}",
+							"{@spell dimension door}",
+							"{@spell Tenser's transformation|XGE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"environment": [
+				"underdark"
+			]
+		}
+	]
+}
